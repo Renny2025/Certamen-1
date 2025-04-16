@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de congelados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .navbar {
+            background-color: #fd0d65;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0dfd29, #1eff00);
+            padding: 5rem 1rem;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2 {
+            font-weight: 700;
+        }
+
+        .card {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .btn-primary {
+            background-color: #6fff00;
+            border-color: #8cff00;
+        }
+
+        .btn-primary:hover {
+            background-color: #e65c00;
+            border-color: #e65c00;
+        }
+
+        footer {
+            background-color: #fde50d;
+            color: white;
+        }
+
+        a.text-white:hover {
+            color: #ffd54f !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Logo.png" alt="Logo de la tienda" style="width:50px;" class="rounded-pill">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ofertas">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header id="inicio" class="text-center">
+        <h1>Venta de congelados</h1>
+        <p>Comida congelado y al por mayor</p>
+    </header>
+
+    <!-- SECCIÓN OFERTAS -->
+    <section id="ofertas" class="container mt-5">
+        <h2 class="text-center mb-4">Ofertas Especiales</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="Churrasco Congelado.jpg" class="card-img-top" alt="Churrasco">
+                    <div class="card-body">
+                        <h3>Churrasco congelado 3 und</h3>
+                        <p>Churrasco 3 bolsas congelados para llegar y preparar.</p>
+                        <p><b>Precio: $9.990</b></p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="Choclo Congelado.jpg" class="card-img-top" alt="choclo congelado">
+                    <div class="card-body">
+                        <h3>choclo congelado 3 ud.</h3>
+                        <p>Bolsa de 3 choclos congelados para llegar y preparar.</p>
+                        <p><b>Precio: $11.990</b></p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+    </div>
+</div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="Arbejas Congeladas.jpg" class="card-img-top" alt="Arbejas" >
+                    <div class="card-body">
+                        <h3>choclo congelado 3 ud.</h3>
+                        <p>Bolsa de 3 choclos congelados para llegar y preparar.</p>
+                        <p><b>Precio: $12.990</b></p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="container mt-5">
+        <h2 class="text-center mb-4">Galería de Imágenes</h2>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <img src="Arbejas Congeladas.jpg" class="img-fluid rounded shadow-sm" alt="Arbejas" width="400">
+            </div>
+            <div class="col-md-4">
+                <img src="Choclo Congelado.jpg" class="img-fluid rounded shadow-sm" alt="choclo" width="400">
+            </div>
+            <div class="col-md-4">
+                <img src="Churrasco Congelado.jpg" class="img-fluid rounded shadow-sm" alt="Churrasco" width="400">
+            </div>
+            <div class="col-md-4">
+                <img src="PapasPre.jpg" class="img-fluid rounded shadow-sm" alt="PapasPre" width="400">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center p-4 mt-5">
+        <p><b>Nombre:</b> Mathias Beltran</p>
+        <p><b>Fono:</b> +569 45271587</p>
+        <p><b>Direccion:</b> Avenida las trancas 2025</p>
+        <p><b>Email:</b> mathias.beltran@inacapmail.cl</p>
+        <p><b>GitHub:</b> <a href="https://github.com/Renny2025" class="text-white">github.com/Renny2025</a></p>
+    </footer>
+
+</body>
+</html>
